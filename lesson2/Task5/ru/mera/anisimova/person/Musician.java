@@ -1,22 +1,17 @@
 package ru.mera.anisimova.person;
 
-import javax.sound.midi.Instrument;
+public class Musician extends Person {
+	private final String instrument;
 
-public class Musician {
-	public Instrument instrument;
-
-	public Musician(Instrument instrument) {
-		super();
-		this.instrument = instrument;
-	}
-
-	public Instrument getInstrument() {
+	public String getInstrument() {
 		return instrument;
 	}
 
-	public void setInstrument(Instrument instrument) {
-		this.instrument = instrument;
-	}
-	
+	 public Musician(String name, String surname, String style) {
+	        super(name, surname);
+	        this.instrument = style;
+	    }
+
+
 	
 }

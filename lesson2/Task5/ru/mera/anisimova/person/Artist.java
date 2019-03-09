@@ -1,23 +1,18 @@
 package ru.mera.anisimova.person;
+import ru.mera.anisimova.person.*;
 
-import javax.swing.text.Style;
+public class Artist extends Person{
+	private final String style;
 
-public class Artist {
-	public Style style;
-
-	public Artist(Style style) {
-		super();
-		this.style = style;
-	}
-
-	public Style getStyle() {
+	public String getStyle() {
 		return style;
 	}
 
-	public void setStyle(Style style) {
-		this.style = style;
-	}
-	
-	
-	
+
+
+	 public Artist(String name, String surname, String style) {
+	        super(name, surname);
+	        this.style = style;
+	    }
+
 }
