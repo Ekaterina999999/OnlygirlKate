@@ -14,4 +14,11 @@ public class Monoblocks extends Computers{
 	public String toString() {
 		return "Laptop " + " " + name + " " + count + "rub  " + quantity + " pieces " + storage + " Gb " + "HDD " + hdd + coreCPU + " core" ;
 	}
+
+	@Override
+	protected int getDaysForReturn() {
+		return 0;
+	}
+	
+	
 }

@@ -17,6 +17,8 @@ public abstract class AbstractItem implements Item {
 		return quantity;
 	}
 
+	protected abstract int getDaysForReturn();
+
 	
 
 }

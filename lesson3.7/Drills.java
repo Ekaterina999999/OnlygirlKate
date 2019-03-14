@@ -35,8 +35,8 @@ public class Drills extends Elinstrument implements Returnable{
 	}
 
 	@Override
-	public void getDaysForReturn() {
-		System.out.println("Can be returned within 14 days");
+	public int getDaysForReturn() {
+		return 14;
 		
 	}
 	

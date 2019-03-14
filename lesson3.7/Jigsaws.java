@@ -20,6 +20,11 @@ public class Jigsaws extends Elinstrument {
 	public double getNotch() {
 		return notch;
 	}
+
+	@Override
+	protected int getDaysForReturn() {
+		return 0;
+	}
  
     
 }

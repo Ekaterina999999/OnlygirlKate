@@ -26,7 +26,7 @@ public class Saws extends Elinstrument implements Returnable {
 	}
 
 	@Override
-	public void getDaysForReturn() {
-		System.out.println("Can be returned within 21 days");
+	public int getDaysForReturn() {
+		return 21;
 		}
 }
