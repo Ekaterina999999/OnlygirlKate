@@ -1,5 +1,5 @@
 
 public interface Returnable {
-	void getRequiredDocuments(); 
+	String getRequiredDocuments(); 
 	int getDaysForReturn();
 }

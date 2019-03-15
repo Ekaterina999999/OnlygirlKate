@@ -34,8 +34,8 @@ public class Laptops extends Computers implements Returnable {
 
 
 	@Override
-	public void getRequiredDocuments() {
-		System.out.println("You need passport and check");
+	public String getRequiredDocuments() {
+		return " You need passport and check";
 		
 	}
 

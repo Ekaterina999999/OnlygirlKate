@@ -25,6 +25,11 @@ public class Jigsaws extends Elinstrument {
 	protected int getDaysForReturn() {
 		return 0;
 	}
+
+	@Override
+	protected String getRequiredDocuments() {
+		return null;
+	}
  
     
 }

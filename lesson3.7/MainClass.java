@@ -95,7 +95,7 @@ public class MainClass {
 		for (int i = 0; i < matrix2.size(); i++) {
         	if (((AbstractItem) matrix2.get(i)).getDaysForReturn() != 0){
         		System.out.println(((AbstractItem) matrix2.get(i)).getName() + " you can return within " 
-        							+ ((AbstractItem) matrix2.get(i)).getDaysForReturn() + "days");
+        							+ ((AbstractItem) matrix2.get(i)).getDaysForReturn() + " days. " + ((AbstractItem) matrix2.get(i)).getRequiredDocuments());
         	}
         }
        

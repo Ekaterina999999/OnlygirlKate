@@ -30,8 +30,8 @@ public class Drills extends Elinstrument implements Returnable{
 	}
 
 	@Override
-	public void getRequiredDocuments() {
-		System.out.println("You need check");
+	public String getRequiredDocuments() {
+		return " You need check";
 	}
 
 	@Override
